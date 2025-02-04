@@ -1,0 +1,30 @@
+def encode(message, shift):
+    result = ""
+    for char in message:
+        sigma = char.isalpha()
+        if sigma:
+            issuper = char.isupper()
+            Code = ord(char)
+            print(Code)
+            if issuper:
+                Code += shift
+                if Code > ord('Z'):
+                    Code -= 26
+                elif Code < ord('A'):
+                    Code += 26
+            else:
+                Code += shift
+                if Code > ord('z'):
+                    Code -= 26
+                elif Code < ord('a'):
+                    Code += 26
+        else:
+            Code = ord(char)
+        result += chr(Code)
+    return result
+
+message = "Baez Knows!"
+shift = int(input("How much do you want to shift by: "))
+
+encrypted_text = encode(message, shift)
+print(encrypted_text)

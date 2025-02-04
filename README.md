@@ -8,3 +8,5 @@ This is allowed
 
 https://www.digitalocean.com/community/tutorials/python-ord-chr
 Baez Knows!
+Encoded string w/ shift of 5: ymnx%nx%fqqt|ji
+Encoded string w/ shift of 1: uijt!jt!bmmpxfe

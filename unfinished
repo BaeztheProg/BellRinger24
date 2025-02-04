@@ -1,0 +1,1 @@
+print(ord("b"), ord("a"),ord("e"),ord("z"),ord("k"), ord("n"),ord("o"),ord("w"),ord("s"),ord('!'))

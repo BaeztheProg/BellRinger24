@@ -1,4 +1,4 @@
-def textencrypter():
+def textencrypter(encryptedversion):
     encryptedtxt = input("Enter Text to encrypt: ")
     
     uppercase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -20,4 +20,4 @@ def textencrypter():
 
     return encryptedversion
 
-print(textencrypter())
+print(textencrypter("encryptedversion"))

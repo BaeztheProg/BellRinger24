@@ -1,4 +1,6 @@
 stringy = "Baez Knows!"
-
+units = []
 for i in stringy:
-    print(ord(i)+13)
+    units.append(ord(i)+1)
+    for i in units:
+        print(chr(i))

@@ -13,6 +13,7 @@ def encrypt(text, shift):
       new_text += alphabet[new_position]
     else:
       new_text += char
+  new_text.append('!')
   return new_text
 
 print(encrypt(text, 13))

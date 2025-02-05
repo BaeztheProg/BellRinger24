@@ -53,3 +53,12 @@ This is allowed
 
 https://www.digitalocean.com/community/tutorials/python-ord-chr
 Baez Knows!
+```
+For this is allowed:
+Encoded string w/ shift of 5: ymnx%nx%fqqt|ji
+Encoded string w/ shift of 1: uijt!jt!bmmpxfe
+
+For Baez Knows!:
+Encoded string w/ shift of 1: Cbf{!Lopxt"
+Encoded string w/ ROT13: Onr/x87-X{|/x84/x80.
+```
